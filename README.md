@@ -2,9 +2,11 @@
 
 ## 概要
 
-TypeScript resolveJsonModule Sample
+TypeScript で resolveJsonModule を使用したサンプルです。
 
-## 設定
+## サンプルソース
+
+### tsconfig.json
 
 ```json
 {
@@ -20,4 +22,28 @@ TypeScript resolveJsonModule Sample
    "src/**/*"
   ]
 }
+```
+
+### src/data.json
+
+```json
+{
+  "id": 1,
+  "memo": "hogehoge"
+}
+```
+
+### src/main.ts
+
+```typescript
+import data from './data.json';
+
+console.log(`id=${data.id}, memo=${data.memo}`);
+```
+
+## 実行結果
+
+```bash
+yarn start
+id=1, memo=hogehoge
 ```
