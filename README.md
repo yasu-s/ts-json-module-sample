@@ -2,7 +2,8 @@
 
 ## 概要
 
-TypeScript で resolveJsonModule を使用したサンプルです。
+* TypeScript で resolveJsonModule を使用したサンプルです。
+* tsconfig.json 上で resolveJsonModule を指定することでjsonファイルから型の抽出・生成を行うことができます。
 
 ## サンプルソース
 
