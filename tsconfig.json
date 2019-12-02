@@ -1,12 +1,3 @@
-# ts-json-module-sample
-
-## 概要
-
-TypeScript resolveJsonModule Sample
-
-## 設定
-
-```json
 {
   "compilerOptions": {
     "target": "esnext",
@@ -20,4 +11,3 @@ TypeScript resolveJsonModule Sample
    "src/**/*"
   ]
 }
-```
