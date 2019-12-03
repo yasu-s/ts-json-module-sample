@@ -5,6 +5,15 @@
 * TypeScript で resolveJsonModule を使用したサンプルです。
 * tsconfig.json 上で resolveJsonModule を指定することでjsonファイルから型の抽出・生成を行うことができます。
 
+## 実行環境
+
+* Node.js - 10.x
+* Yarn - 1.17.x
+
+## 使用ライブラリ
+
+* TypeScript - 3.7.x
+
 ## サンプルソース
 
 ### tsconfig.json
@@ -48,3 +57,7 @@ console.log(`id=${data.id}, memo=${data.memo}`);
 yarn start
 id=1, memo=hogehoge
 ```
+
+## URL
+
+* https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-9.html#new---resolvejsonmodule
